@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "rest_framework",
     "characters.apps.CharactersConfig",
     "comics.apps.ComicsConfig",
     "creators.apps.CreatorsConfig",
